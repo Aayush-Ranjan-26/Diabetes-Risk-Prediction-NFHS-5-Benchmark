@@ -1,0 +1,16 @@
+Method,Model,Accuracy,Recall,Precision,F1,ROC-AUC,Log Loss
+No Handling,Logistic Regression,99.1,0.0,0.0,0.0,69.43,4.84
+No Handling,Random Forest,99.08,0.0,0.0,0.0,61.86,20.93
+No Handling,SVM (RBF),99.1,0.0,0.0,0.0,39.62,5.14
+No Handling,AdaBoost,99.1,0.0,0.0,0.0,65.99,31.95
+No Handling,Naive Bayes,94.52,25.93,4.62,7.84,71.6,48.56
+SMOTE,Logistic Regression,83.5,42.59,2.34,4.44,67.03,55.72
+SMOTE,Random Forest,98.18,0.0,0.0,0.0,59.94,20.95
+SMOTE,SVM (RBF),83.52,35.19,1.95,3.7,56.48,45.15
+SMOTE,AdaBoost,94.98,20.37,4.09,6.81,62.56,63.05
+SMOTE,Naive Bayes,94.52,33.33,5.79,9.86,64.17,81.31
+Class Weight,Logistic Regression,84.7,42.59,2.53,4.77,68.27,55.4
+Class Weight,Random Forest,99.08,0.0,0.0,0.0,64.12,19.78
+Class Weight,SVM (RBF),84.47,42.59,2.49,4.7,63.16,4.98
+Class Weight,AdaBoost,99.1,0.0,0.0,0.0,65.99,31.95
+Class Weight,Naive Bayes,94.52,25.93,4.62,7.84,71.6,48.56
