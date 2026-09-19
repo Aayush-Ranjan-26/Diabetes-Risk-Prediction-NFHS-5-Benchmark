@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# NFHS-5 is DHS Program microdata — redistribution is restricted by its
+# data-use agreement, so the raw file isn't committed. See README > Data Access.
+Final.csv
